@@ -1,0 +1,20 @@
+{
+    "paths": {
+        "src": {
+            "html": [
+                "./src/app/*.html",
+                "./src/app/**/*.html",
+                "./src/app/**/**/*.html"
+            ],
+            "js": [
+                "./src/app/*.js",
+                "./src/app/**/*.js",
+                "./src/app/**/**/*.js"
+            ],
+            "styles": [
+                "./src/**/*.scss",
+                "./src/**/**/*.scss"
+            ]
+        }
+    }
+}
