@@ -15,6 +15,9 @@
                 "./src/**/*.scss",
                 "./src/**/**/*.scss"
             ]
-        }
+        },
+        "node_modules": [
+            "./node_modules/**/*.js"
+        ]
     }
 }
