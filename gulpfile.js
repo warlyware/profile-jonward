@@ -3,7 +3,6 @@
 var gulp = require('gulp');
 var config = require('./gulp/config.json');
 var sass = require('gulp-sass');
-var browserSync = require('browser-sync');
 var connect = require('gulp-connect');
 
 
