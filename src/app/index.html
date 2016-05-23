@@ -6,10 +6,12 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="node_modules/angular-material/angular-material.css">
 </head>
-<body ng-controller="ApplicationController as appCtrl">
-    <a ui-sref="home">Route 1</a></li>
+<body ng-controller="ApplicationController as appCtrl" class="full-height">
 
-    <div ui-view class="layout-row layout-align-center-center full-height"></div>
+    <header id="header">
+        <a ui-sref="home">Route 1</a></li>
+    </header>
+    <div ui-view class="layout-row layout-align-center-center full-height content-height"></div>
 
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
