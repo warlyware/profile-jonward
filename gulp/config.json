@@ -12,9 +12,12 @@
                 "./src/app/**/**/*.js"
             ],
             "styles": [
-                "./src/**/*.scss",
-                "./src/**/**/*.scss"
-            ]
+                "./src/**/base.scss",
+                "./src/**/colors.scss",
+                "./src/**/**/*.scss",
+                "./src/**/**/**/*.scss"
+            ],
+            "styles_imports": "./src/styles"
         },
         "node_modules": [
             "./node_modules/**/*.js",

@@ -1,4 +1,12 @@
+@import 'colors';
+
 #landing {
-    height: 60vh;
-    background-color: grey;
+    .landing-left {
+        background-color: $dark-blue;
+    }
+
+    .landing-right {
+        background-color: $maroon;
+    }
+
 }

@@ -11,7 +11,7 @@ var concatCss = require('gulp-concat-css');
 
 gulp.task('styles', function() {
     return gulp.src(config.paths.src.styles)
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sass.sync({includePaths: config.paths.src.styles_imports}).on('error', sass.logError))
         .pipe(concatCss('style.css'))
         .pipe(gulp.dest('build'))
         .pipe(connect.reload());
