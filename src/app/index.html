@@ -9,11 +9,18 @@
 <body ng-controller="ApplicationController as appCtrl" class="full-height">
 
     <header id="header">
-        <a ui-sref="home">Route 1</a></li>
+        <div class="layout-column layout-align-end-end layout-fill md-padding name md-display-2">
+            <div class="layout-row md-padding">
+                j o n a t h a n
+            </div>
+            <div class="layout-row md-padding">
+                w a r d
+            </div>
+        </div>
     </header>
     <div ui-view class="layout-row layout-align-center-center full-height content-height"></div>
     <footer id="footer">
-        <a ui-sref="home">Route 1</a></li>
+
     </footer>
 
     <script src="node_modules/angular/angular.min.js"></script>
@@ -27,6 +34,6 @@
     <script src="components/home/home.module.js"></script>
     <script src="components/home/home.controller.js"></script>
     <script src="components/landing/landing.module.js"></script>
-    <script src="components/landing/landing.controller.js"></script>    
+    <script src="components/landing/landing.controller.js"></script>
 </body>
 </html>
