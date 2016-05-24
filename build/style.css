@@ -1,0 +1,32 @@
+html body {
+  height: 100%;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.content-height {
+  max-height: 60vh;
+}
+#footer {
+  background-color: #404040;
+  height: 20vh;
+}
+#header {
+  background-color: #404040;
+  height: 20vh;
+}
+
+#header .name {
+  color: #F2EFDB;
+}
+#landing .landing-left {
+  background-color: #00495A;
+}
+
+#landing .landing-right {
+  background-color: #83002B;
+}
