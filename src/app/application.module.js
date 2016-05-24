@@ -13,7 +13,9 @@ angular.module('profile-jonward', [
         })
         .state('landing', {
             url: '/',
-            templateUrl: 'components/landing/landing.tpl.html'
+            templateUrl: 'components/landing/landing.tpl.html',
+            controller: 'LandingController',
+            controllerAs: 'LandingCtrl'
         })
         .state('home', {
             url: '/home',
