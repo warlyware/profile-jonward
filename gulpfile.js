@@ -3,15 +3,16 @@
 var gulp = require('gulp');
 var config = require('./gulp/config.json');
 var sass = require('gulp-sass');
-var browserSync = require('browser-sync');
 var connect = require('gulp-connect');
+var concatCss = require('gulp-concat-css');
 
 
 // watch files for changes and reload
 
 gulp.task('styles', function() {
     return gulp.src(config.paths.src.styles)
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sass.sync({includePaths: config.paths.src.styles_imports}).on('error', sass.logError))
+        .pipe(concatCss('style.css'))
         .pipe(gulp.dest('build'))
         .pipe(connect.reload());
 });
