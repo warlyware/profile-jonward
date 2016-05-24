@@ -11,6 +11,10 @@ html body {
 .content-height {
   max-height: 60vh;
 }
+#footer {
+  background-color: #404040;
+  height: 20vh;
+}
 #header {
   background-color: #404040;
   height: 20vh;
@@ -25,8 +29,4 @@ html body {
 
 #landing .landing-right {
   background-color: #83002B;
-}
-#footer {
-  background-color: #404040;
-  height: 20vh;
 }
