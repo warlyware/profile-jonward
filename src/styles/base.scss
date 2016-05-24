@@ -1,5 +1,7 @@
 html {
     body {
+        height: 100%;
+        width: 100%;
         background-color: #f0f0f0;
     }
 }
@@ -9,5 +11,5 @@ html {
 }
 
 .content-height {
-    max-height: calc(100vh - 248px);
+    max-height: 60vh;
 }

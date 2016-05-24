@@ -9,6 +9,8 @@
   "author": "Dan Ward",
   "license": "ISC",
   "devDependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
     "gulp-connect": "^4.0.0",
     "gulp-sass": "^2.3.1"
   },
