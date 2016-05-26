@@ -9,11 +9,19 @@ html body {
 }
 
 .content-height {
-  max-height: 60vh;
+  height: 400px;
 }
-#footer {
-  background-color: #404040;
-  height: 20vh;
+
+.no-shrink {
+  flex-shrink: 0;
+}
+
+.color-beige {
+  color: #F2EFDB;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 #header {
   background-color: #404040;
@@ -23,10 +31,40 @@ html body {
 #header .name {
   color: #F2EFDB;
 }
+#home {
+  background-color: #83002B;
+}
+#footer {
+  background-color: #404040;
+  height: 20vh;
+}
+#landing {
+  width: 100%;
+}
+
 #landing .landing-left {
   background-color: #00495A;
 }
 
 #landing .landing-right {
   background-color: #83002B;
+}
+
+#landing .landing-midsection {
+  width: 0;
+  height: 100%;
+  border-top: 400px solid #83002B;
+  border-left: 300px solid #00495A;
+}
+
+#landing .enter-button {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 102.5px;
+  height: 53px;
+  z-index: 20;
 }

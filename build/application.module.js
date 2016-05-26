@@ -1,9 +1,10 @@
 angular.module('profile-jonward', [
+    'ngMaterial',
     'ui.router',
     'profile-jonward.components'
 ])
 
-.config(['$stateProvider', function($stateProvider) {
+.config(['$stateProvider', '$locationProvider', function($stateProvider, $locationProvider) {
 
     $stateProvider
         .state('application', {
@@ -23,8 +24,10 @@ angular.module('profile-jonward', [
             controller: 'HomeController',
             controllerAs: 'HomeCtrl'
         });
+
 }])
 
-.run([function() {
+.run(['$rootScope', '$state', function($rootScope, $state) {
     console.log('app online');
+    $rootScope.$state = $state;
 }]);
