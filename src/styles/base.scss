@@ -13,5 +13,9 @@ html {
 }
 
 .content-height {
-    max-height: 60vh;
+    height: 400px;
+}
+
+.no-shrink {
+    flex-shrink: 0;
 }

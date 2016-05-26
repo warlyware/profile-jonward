@@ -1,6 +1,8 @@
 @import 'colors';
 
 #landing {
+
+    width: 100%;
     .landing-left {
         background-color: $dark-blue;
     }
@@ -8,5 +10,14 @@
     .landing-right {
         background-color: $maroon;
     }
+
+    .landing-midsection {
+        width: 0;
+    	height: 100%;
+    	border-top: 400px solid $maroon;
+    	border-left: 300px solid $dark-blue;
+    }
+
+
 
 }

@@ -3,7 +3,7 @@ angular.module('profile-jonward', [
     'profile-jonward.components'
 ])
 
-.config(['$stateProvider', function($stateProvider) {
+.config(['$stateProvider', '$locationProvider', function($stateProvider, $locationProvider) {
 
     $stateProvider
         .state('application', {
@@ -23,6 +23,12 @@ angular.module('profile-jonward', [
             controller: 'HomeController',
             controllerAs: 'HomeCtrl'
         });
+
+        $locationProvider.html5Mode({
+          enabled: true,
+          requireBase: false
+        });
+
 }])
 
 .run([function() {
