@@ -1,12 +1,33 @@
 @import 'colors';
 
 #landing {
+
+    width: 100%;
     .landing-left {
         background-color: $dark-blue;
     }
 
     .landing-right {
         background-color: $maroon;
+    }
+
+    .landing-midsection {
+        width: 0;
+    	height: 100%;
+    	border-top: 400px solid $maroon;
+    	border-left: 300px solid $dark-blue;
+    }
+
+    .enter-button {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 102.5px;
+        height: 53px;
+        z-index: 20;
     }
 
 }
