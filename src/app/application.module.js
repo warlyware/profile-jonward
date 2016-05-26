@@ -25,13 +25,9 @@ angular.module('profile-jonward', [
             controllerAs: 'HomeCtrl'
         });
 
-        $locationProvider.html5Mode({
-          enabled: true,
-          requireBase: false
-        });
-
 }])
 
-.run([function() {
+.run(['$rootScope', '$state', function($rootScope, $state) {
     console.log('app online');
+    $rootScope.$state = $state;
 }]);
