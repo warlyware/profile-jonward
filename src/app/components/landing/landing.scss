@@ -16,6 +16,9 @@
     	height: 100%;
     	border-top: 400px solid $maroon;
     	border-left: 300px solid $dark-blue;
+        -webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
     }
 
     .enter-button {
