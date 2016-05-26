@@ -16,18 +16,27 @@
     	height: 100%;
     	border-top: 400px solid $maroon;
     	border-left: 300px solid $dark-blue;
+        -webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
     }
 
     .enter-button {
+        font-family: 'Biryani', sans-serif;
+        font-weight: 200;
         position: absolute;
         margin: auto;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        width: 102.5px;
+        width: 156.41px;
         height: 53px;
         z-index: 20;
+
+        span {
+            letter-spacing: 0.2em;
+        }
     }
 
 }

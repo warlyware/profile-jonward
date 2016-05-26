@@ -1,0 +1,82 @@
+html body {
+  height: 100%;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.content-height {
+  height: 400px;
+}
+
+.no-shrink {
+  flex-shrink: 0;
+}
+
+.color-beige {
+  color: #F2EFDB;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+#footer {
+  background-color: #404040;
+  height: 20vh;
+}
+#header {
+  background-color: #404040;
+  height: 20vh;
+}
+
+#header .name {
+  font-family: 'Biryani', sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.3em;
+  color: #F2EFDB;
+}
+#home {
+  background-color: #83002B;
+}
+#landing {
+  width: 100%;
+}
+
+#landing .landing-left {
+  background-color: #00495A;
+}
+
+#landing .landing-right {
+  background-color: #83002B;
+}
+
+#landing .landing-midsection {
+  width: 0;
+  height: 100%;
+  border-top: 400px solid #83002B;
+  border-left: 300px solid #00495A;
+  -webkit-box-shadow: 10px 10px 39px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 39px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 39px 0px rgba(0, 0, 0, 0.75);
+}
+
+#landing .enter-button {
+  font-family: 'Biryani', sans-serif;
+  font-weight: 200;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 156.41px;
+  height: 53px;
+  z-index: 20;
+}
+
+#landing .enter-button span {
+  letter-spacing: 0.2em;
+}
