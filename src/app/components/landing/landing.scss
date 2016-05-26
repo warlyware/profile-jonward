@@ -19,15 +19,21 @@
     }
 
     .enter-button {
+        font-family: 'Biryani', sans-serif;
+        font-weight: 200;
         position: absolute;
         margin: auto;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
-        width: 102.5px;
+        width: 156.41px;
         height: 53px;
         z-index: 20;
+        
+        span {
+            letter-spacing: 0.2em;
+        }
     }
 
 }
