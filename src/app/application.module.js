@@ -1,4 +1,5 @@
 angular.module('profile-jonward', [
+    'ngMaterial',
     'ui.router',
     'profile-jonward.components'
 ])
