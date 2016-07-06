@@ -18,6 +18,18 @@ angular.module('profile-jonward', [
             controller: 'LandingController',
             controllerAs: 'LandingCtrl'
         })
+        .state('bio', {
+            url: '/bio',
+            templateUrl: 'components/bio/bio.tpl.html',
+            controller: 'BioController',
+            controllerAs: 'BioCtrl'
+        })
+        .state('bands', {
+            url: '/bands',
+            templateUrl: 'components/bands/bands.tpl.html',
+            controller: 'BandsController',
+            controllerAs: 'BandsCtrl'
+        })
         .state('home', {
             url: '/home',
             templateUrl: 'components/home/home.tpl.html',

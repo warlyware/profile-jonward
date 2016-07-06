@@ -23,6 +23,12 @@ html body {
 .cursor-pointer {
   cursor: pointer;
 }
+#bands {
+  background-color: #83002B;
+}
+#bio {
+  background-color: #83002B;
+}
 #footer {
   background-color: #404040;
   height: 20vh;
