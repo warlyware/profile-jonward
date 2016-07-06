@@ -42,11 +42,23 @@ angular.module('profile-jonward', [
             controller: 'MediaController',
             controllerAs: 'MediaCtrl'
         })
+        .state('audio', {
+            url: '/audio',
+            templateUrl: 'components/audio/audio.tpl.html',
+            controller: 'AudioController',
+            controllerAs: 'AudioCtrl'
+        })
         .state('contact', {
             url: '/contact',
             templateUrl: 'components/contact/contact.tpl.html',
             controller: 'ContactController',
             controllerAs: 'ContactCtrl'
+        })
+        .state('composition', {
+            url: '/composition',
+            templateUrl: 'components/composition/composition.tpl.html',
+            controller: 'CompositionController',
+            controllerAs: 'CompositionCtrl'
         });
 
 }])
