@@ -3,5 +3,6 @@ angular.module('profile-jonward.components', [
     'profile-jonward.landing',
     'profile-jonward.bands',
     'profile-jonward.bio',
-    'profile-jonward.contact'
+    'profile-jonward.contact',
+    'profile-jonward.media'
 ]);

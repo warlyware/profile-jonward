@@ -36,6 +36,12 @@ angular.module('profile-jonward', [
             controller: 'HomeController',
             controllerAs: 'HomeCtrl'
         })
+        .state('media', {
+            url: '/media',
+            templateUrl: 'components/media/media.tpl.html',
+            controller: 'MediaController',
+            controllerAs: 'MediaCtrl'
+        })
         .state('contact', {
             url: '/contact',
             templateUrl: 'components/contact/contact.tpl.html',
