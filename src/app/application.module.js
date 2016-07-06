@@ -35,6 +35,12 @@ angular.module('profile-jonward', [
             templateUrl: 'components/home/home.tpl.html',
             controller: 'HomeController',
             controllerAs: 'HomeCtrl'
+        })
+        .state('contact', {
+            url: '/contact',
+            templateUrl: 'components/contact/contact.tpl.html',
+            controller: 'ContactController',
+            controllerAs: 'ContactCtrl'
         });
 
 }])
