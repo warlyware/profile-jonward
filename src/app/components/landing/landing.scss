@@ -11,22 +11,18 @@
         background-color: $maroon;
     }
 
+    .landing-split {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 400px 0 0px 100px;
+        border-color: $maroon transparent transparent $dark-blue;
+    }
+
     .landing-midsection {
         min-width: 300px;
     	height: 400px;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#83002b+1,83002b+50,00495a+51,00495a+51,00495a+100 */
-        background: rgb(131,0,43); /* Old browsers */
-        // background: -moz-linear-gradient(45deg,  rgba(131,0,43,1) 1%, rgba(131,0,43,1) 50%, rgba(0,73,90,1) 51%, rgba(0,73,90,1) 51%, rgba(0,73,90,1) 100%); /* FF3.6-15 */
-        // background: -webkit-linear-gradient(45deg,  rgba(131,0,43,1) 1%,rgba(131,0,43,1) 50%,rgba(0,73,90,1) 51%,rgba(0,73,90,1) 51%,rgba(0,73,90,1) 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(45deg,  rgba(131,0,43,1) 1%,rgba(131,0,43,1) 50%,rgba(0,73,90,1) 51%,rgba(0,73,90,1) 51%,rgba(0,73,90,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83002b', endColorstr='#00495a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-
-        // border-top: 400px solid $maroon;
-    	// border-left: 300px solid $dark-blue;
-        -webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
-        box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+        background: $maroon;
     }
 
     .enter-button {

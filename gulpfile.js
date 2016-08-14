@@ -48,4 +48,4 @@ gulp.task('watch', function() {
     gulp.watch(config.paths.src.styles, ['styles']);
 });
 
-gulp.task('default', ['styles', 'copy:html', 'copy:js', 'copy:node_modules', 'serve', 'watch']);
+gulp.task('default', ['styles', 'copy:html', 'copy:js', 'copy:node_modules', 'watch']);
